@@ -1,0 +1,46 @@
+0,Successfully completed
+1,Parser Initialization Failure
+2,Error while parsing XML
+3,Internal Parser Error
+4,Internal Parser Error: Undefined Exception
+5,Storage allocation failed for CTM/EM Gateway
+7,Cannot open conditions file
+9,Completed OK
+18,Internal error on GETMEM
+19,DSN not in catalog
+20,DSN - dynamic allocation failed
+21,Internal error. Invalid request to CTMEM
+22,Maximum number of members or lines in member exceeded
+23,Invalid return code from CTMEM
+24,Error while processing directory of library
+25,Library operation failed
+40,Cannot open print file
+42,Open of IOA log file failed
+45,Internal Error on IOACND
+46,Invalid date format
+47,Cannot open synchronization file
+48,Internal Server Error on Control-M
+49,Internal Server Error on Control-M
+51,Cannot add the condition because it already exists
+52,Cannot add the condition because the condition file is full
+53,Cannot add the control resource because it already exists
+54,Cannot add the control resource because the resource file is full
+55,Cannot delete the condition because it does not exist
+56,Cannot delete the quantitative resource because it is in use
+57,Cannot add the quantitative resource because the resource file is full
+58,Cannot add the quantitative because it already exists
+59,Cannot delete the quantitative resource because it does not exist
+61,Invalid value in sign field
+63,Cannot load module (internal error)
+64,The requested folder does not exist in the library
+70,The requested job does not exist in the library
+87,Invalid date
+90,Folder or member does not exist
+91,Folder of Member already exists
+93,Invalid Folder ID
+95,The folder entity specified was not found in Active Jobs database
+96,Failed to extract data from CTM/EM message
+97,Failed to delete records from folder
+98,Insert into folder failed
+99,Update folder failed
+100,Failed to commit transaction

@@ -1,0 +1,199 @@
+CEMLI ID,CEMLI Title,Location,Schedule Name,Dashboard Active,Frequency,File Count
+E081,Mass Update for WFA Data Changes,NULL,NULL,Yes,Ad Hoc,NULL
+E346,Batch Upload Process for Hires,NULL,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UCOP,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UCLA,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UC Riverside,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,UC Merced,NULL,Yes,Ad Hoc,NULL
+E703,Funding Entry Upload,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I106,Separated Employee Acc,NULL,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,NULL,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UCOP,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UCLA,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UC Merced,NULL,Yes,Ad Hoc,NULL
+I129,Labor ledger to ERS Outbound,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,Berkeley,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UCOP,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UCLA,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,UC Merced,NULL,Yes,Ad Hoc,NULL
+I158,Work Study Award Outbound,NULL,NULL,Yes,Ad Hoc,NULL
+I254,Union Roster Temp,NULL,NULL,No,Ad Hoc,NULL
+I357,LMS Feed - PIP,NULL,NULL,No,Ad Hoc,NULL
+I604,Sedgwick Employee Data,NULL,NULL,No,Ad Hoc,NULL
+I607,Sedgwick Employee Appointment Data,NULL,NULL,No,Ad Hoc,NULL
+I243u,Cal Casualty Eligibility file,NULL,NULL,No,Ad Hoc,NULL
+I602,Monthly Carrier Premium,NULL,NULL,No,Ad Hoc,NULL
+I109,Employee SSN Verification,NULL,NULL,No,Ad Hoc,NULL
+I110,IVR Payroll Data,NULL,NULL,No,Ad Hoc,NULL
+I112,IVR Employee Data,NULL,NULL,No,Ad Hoc,NULL
+I606,Salesforce Census Data,NULL,NULL,No,Ad Hoc,NULL
+I175,Parking Employee Info,NULL,NULL,No,Ad Hoc,NULL
+I179,CONNEXXUS Employee Information,NULL,NULL,No,Ad Hoc,NULL
+I152,LMS Dept Code Lookup,NULL,NULL,No,Ad Hoc,NULL
+I275,Extract for LMS,NULL,NULL,No,Ad Hoc,NULL
+I358,Cardinus (Omega Health Systems),NULL,NULL,No,Ad Hoc,NULL
+I243a,Carrier Data Extract - ARAG,NULL,NULL,No,Ad Hoc,NULL
+I243e,Carrier Data Extract - Delta Dental,NULL,NULL,No,Ad Hoc,NULL
+I243g,Carrier Data Extract - Kaiser,NULL,NULL,No,Ad Hoc,NULL
+I243i,Carrier Data Extract - Chartis,NULL,NULL,No,Ad Hoc,NULL
+I243m,Carrier Data Extract - Bright Horizons,NULL,NULL,No,Ad Hoc,NULL
+I243o,Carrier Data Extract - VSP,NULL,NULL,No,Ad Hoc,NULL
+I243p,Carrier Data Extract - Health Net,NULL,NULL,No,Ad Hoc,NULL
+I243q,Carrier Data Extract - WHA,NULL,NULL,No,Ad Hoc,NULL
+I373,BlueShield Eligibility file,NULL,NULL,No,Ad Hoc,NULL
+I605,Conexis COBRA,NULL,NULL,No,Ad Hoc,NULL
+I600,Fidelity Investments - Inbound Loan Feedback,NULL,NULL,Yes,Ad Hoc,NULL
+I176,Parking Deductions (Commuter Check),Berkeley,NULL,Yes,Ad Hoc,NULL
+I176,Parking Deductions (Commuter Check),UCOP,NULL,Yes,Ad Hoc,NULL
+I176,Parking Deductions (Commuter Check),UC Riverside,NULL,Yes,Monthly,2
+I176,Parking Deductions (Commuter Check),UC Riverside,NULL,Yes,Biweekly,NULL
+I176,Parking Deductions (Commuter Check),UC Merced,NULL,Yes,Monthly,1
+I176,Parking Deductions (Commuter Check),ASUCLA,NULL,Yes,Biweekly,1
+I176,Parking Deductions (Commuter Check),ASUCLA,NULL,Yes,Monthly,1
+I176,Parking Deductions (Commuter Check),UC Santa Barbara,NULL,Yes,Biweekly,2
+I176,Parking Deductions (Commuter Check),UC Santa Barbara,NULL,Yes,Monthly,NULL
+I176,Parking Deductions (Commuter Check),UCLA,NULL,Yes,Monthly,NULL
+I176,Parking Deductions (Commuter Check),UCLA,NULL,Yes,Biweekly,NULL
+I176,Parking Deductions (Commuter Check),NULL,NULL,Yes,Ad Hoc,NULL
+I261,Scholarshare Enrollment Changes,NULL,NULL,Yes,Ad Hoc,NULL
+149,CONEXIS FSA Deduction Benefit Extract,NULL,NULL,No,Ad Hoc,NULL
+I618,Flat Dollar Amount,UC Merced,inbound_nonmed,Yes,Monthly,3
+I618,Flat Dollar Amount,UC Merced,inbound_nonmed,Yes,Biweekly,NULL
+I618,Flat Dollar Amount,ASUCLA,inbound_nonmed,Yes,Biweekly,1
+I618,Flat Dollar Amount,ASUCLA,inbound_nonmed,Yes,Monthly,NULL
+I618,Flat Dollar Amount,UC Riverside,inbound_nonmed,Yes,Biweekly,NULL
+I618,Flat Dollar Amount,UC Riverside,inbound_nonmed,Yes,Monthly,NULL
+I618,Flat Dollar Amount,UCLA,inbound_nonmed,Yes,Biweekly,1
+I618,Flat Dollar Amount,UCLA,inbound_nonmed,Yes,Monthly,1
+I618,Flat Dollar Amount,UC Santa Barbara,inbound_nonmed,Yes,Biweekly,12
+I618,Flat Dollar Amount,UC Santa Barbara,inbound_nonmed,Yes,Monthly,1
+I618,Flat Dollar Amount,UC Santa Barbara,inbound_nonmed,Yes,Quarterly,1
+I618,Flat Dollar Amount,Berkeley,inbound_nonmed,Yes,Ad Hoc,NULL
+I618,Flat Dollar Amount,Berkeley,inbound_nonmed,Yes,Monthly,NULL
+I618,Flat Dollar Amount,Berkeley,inbound_nonmed,Yes,Biweekly,NULL
+I378,General Deductions - One Time,NULL,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UCOP,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UCLA,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UC Merced,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,Berkeley,NULL,Yes,Ad Hoc,NULL
+I378,General Deductions - One Time,Berkeley,NULL,Yes,Monthly,NULL
+I378,General Deductions - One Time,Berkeley,NULL,Yes,Biweekly,NULL
+I181,Regular Time Entry,Berkeley,inbound_nonmed,Yes,Biweekly,NULL
+I181,Regular Time Entry,Berkeley,inbound_nonmed,Yes,Monthly,NULL
+I181,Regular Time Entry,Berkeley,inbound_nonmed,Yes,Ad Hoc,NULL
+I181,Regular Time Entry,ASUCLA,inbound_nonmed,Yes,Biweekly,2
+I181,Regular Time Entry,ASUCLA,inbound_nonmed,Yes,Monthly,1
+I181,Regular Time Entry,UC Merced,inbound_nonmed,Yes,Monthly,3
+I181,Regular Time Entry,UC Merced,inbound_nonmed,Yes,Biweekly,NULL
+I181,Regular Time Entry,UC Riverside,inbound_nonmed,Yes,Biweekly,NULL
+I181,Regular Time Entry,UC Riverside,inbound_nonmed,Yes,Monthly,2
+I181,Regular Time Entry,UCOP,inbound_nonmed,Yes,Ad Hoc,NULL
+I181,Regular Time Entry,UCLA,inbound_nonmed,Yes,Biweekly,7
+I181,Regular Time Entry,UCLA,inbound_nonmed,Yes,Monthly,4
+I181,Regular Time Entry,UC Santa Barbara,inbound_nonmed,Yes,Biweekly,21
+I181,Regular Time Entry,UC Santa Barbara,inbound_nonmed,Yes,Monthly,1
+I181,Regular Time Entry,UCLA Medical,inbound_med,Yes,Ad Hoc,NULL
+I181,Regular Time Entry,NULL,inbound_med,Yes,Ad Hoc,NULL
+I178,Parking Deduction Corrections,Berkeley,NULL,Yes,Ad Hoc,1
+I178,Parking Deduction Corrections,ASUCLA,NULL,Yes,Biweekly,1
+I178,Parking Deduction Corrections,ASUCLA,NULL,Yes,Monthly,1
+I178,Parking Deduction Corrections,UC Merced,NULL,Yes,Monthly,1
+I178,Parking Deduction Corrections,UC Merced,NULL,Yes,Biweekly,NULL
+I178,Parking Deduction Corrections,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I178,Parking Deduction Corrections,UCLA,NULL,Yes,Biweekly,2
+I178,Parking Deduction Corrections,UCLA,NULL,Yes,Monthly,2
+I178,Parking Deduction Corrections,UC Santa Barbara,NULL,Yes,Biweekly,2
+I178,Parking Deduction Corrections,UC Santa Barbara,NULL,Yes,Monthly,NULL
+I178,Parking Deduction Corrections,NULL,NULL,Yes,Ad Hoc,NUL
+I171,General Deductions,NULL,NULL,Yes,Ad Hoc,NULL
+I171,General Deductions,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I171,General Deductions,UCLA,NULL,Yes,Monthly,1
+I171,General Deductions,UCLA,NULL,Yes,Biweekly,NULL
+I171,General Deductions,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I373,BlueShield Eligibility file Monthly,NULL,NULL,No,Ad Hoc,NULL
+I243h,Carrier Data Extract - Secova,NULL,NULL,No,Ad Hoc,NULL
+I374,Optum Wellness - Behavioral Health,NULL,NULL,No,Ad Hoc,NULL
+I243r,Carrier Data Extract - Truven Health,NULL,NULL,No,Ad Hoc,NULL
+I104,Fidelity Enrollment Transactions,NULL,NULL,Yes,Ad Hoc,NULL
+I243q,Carrier Data Extract - WHA (Monthly),NULL,NULL,No,Ad Hoc,NULL
+I248,Cal Casualty Deductions Data Extract,NULL,NULL,No,Ad Hoc,NULL
+I257,Union Dues Temp,NULL,NULL,No,Ad Hoc,NULL
+I128,EIAS UCRP,NULL,NULL,No,Ad Hoc,NULL
+I376,Wells Fargo,NULL,NULL,No,Ad Hoc,NULL
+I372,Direct Deposit File NACHA - BNY Mellon,NULL,NULL,No,Ad Hoc,NULL
+I206,IVR Release Flags,NULL,NULL,No,Ad Hoc,NULL
+I147,Retirement EmpInfo to UCRS,NULL,NULL,No,Ad Hoc,NULL
+I146,Retirement Dedns to UCRS,NULL,NULL,No,Ad Hoc,NULL
+I126,CPS Selected Control Tables,NULL,NULL,No,Ad Hoc,NULL
+I124,CPS Earnings Data,NULL,NULL,No,Ad Hoc,NULL
+I122,CPS Appointment Data,NULL,NULL,No,Ad Hoc,NULL
+I121,CPS Appointment Data,NULL,NULL,No,Ad Hoc,NULL
+I120,CPS Dependent Data,NULL,NULL,No,Ad Hoc,NULL
+I119,CPS Deduction Data,NULL,NULL,No,Ad Hoc,NULL
+I118,CPS Employee Activity,NULL,NULL,No,Ad Hoc,NULL
+I703,Journal Write-Back Process,Berkeley,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UCOP,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UCLA,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UC Merced,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I703,Journal Write-Back Process,NULL,NULL,Yes,Ad Hoc,NULL
+I704,Inbound Interface Fidelity to UCPath,NULL,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,Berkeley,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,NULL,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UCOP,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UCLA,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UC Merced,NULL,Yes,Ad Hoc,NULL
+I101,Chart of Accounts (COA) Inbound,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I243p,Carrier Data Extract - Health Net (Monthly),NULL,NULL,No,Ad Hoc,NULL
+I103,Personal Insurance Deductions,NULL,NULL,Yes,Ad Hoc,NULL
+I148,Bank Reconciliation (Wells Fargo),NULL,NULL,Yes,Ad Hoc,NULL
+I156,FICA Exempt Inbound,Berkeley,I156_fica_exempt,Yes,Daily,NULL
+I156,FICA Exempt Inbound,UC Riverside,I156_fica_exempt,Yes,Daily,1
+I156,FICA Exempt Inbound,UCLA,I156_fica_exempt,Yes,Daily_M-F,1
+I156,FICA Exempt Inbound,UC Santa Barbara,I156_fica_exempt,Yes,Daily,1
+I156,FICA Exempt Inbound,UC Merced,I156_fica_exempt,Yes,Daily,1
+I156,FICA Exempt Inbound,NULL,I156_fica_exempt,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UCOP,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UCLA,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UC Merced,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,Berkeley,NULL,Yes,Ad Hoc,NULL
+I159,Work Study Limits Inbound,Berkeley,NULL,Yes,Monthly,NULL
+I159,Work Study Limits Inbound,Berkeley,NULL,Yes,Biweekly,NULL
+I160,Graduate Tuition Reimbursement,UCLA,NULL,Yes,Biweekly,1
+I160,Graduate Tuition Reimbursement,UC Merced,NULL,Yes,Monthly,1
+I160,Graduate Tuition Reimbursement,UC Santa Barbara,NULL,Yes,Monthly,1
+I170,Combination Codes,NULL,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,NULL,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UCOP,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UCLA,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UCLA Medical,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,ASUCLA,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UC Riverside,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UC Merced,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,UC Santa Barbara,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,Berkeley,NULL,Yes,Ad Hoc,NULL
+I185,FLSA Work Week Inbound Interface,Berkeley,NULL,Yes,Monthly,NULL
+I185,FLSA Work Week Inbound Interface,Berkeley,NULL,Yes,Biweekly,NULL
