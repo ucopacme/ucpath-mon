@@ -1,0 +1,860 @@
+2018-10-01 06:34:47 MySQL: Error in get_ctm_file_list: global name 'db_cursor' is not defined
+2018-10-01 06:35:43 MySQL: Error in get_ctm_file_list: global name 'db_cursor' is not defined
+2018-10-01 07:04:29 MySQL: INSERT INTO job_data failed: (1136, "Column count doesn't match value count at row 1")
+2018-10-01 07:12:27 MySQL: INSERT INTO job_data failed: (1136, "Column count doesn't match value count at row 1")
+2018-10-01 07:15:46 MySQL: Update processed_flag in ctm_files failed: global name 'active_ctm_file' is not defined
+2018-10-01 07:31:36 MySQL: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: 'NULL' for column 'ps_process_timestamp' at row 1")
+2018-10-04 12:52:21 MySQL: INSERT INTO transfer_data failed: (1136, "Column count doesn't match value count at row 1")
+2018-10-07 15:24:16 MySQL: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: 'NULL' for column 'loc_to_pcssc_download_timestamp' at row 1")
+2018-10-22 09:55:31 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-01-03 15:30\n:00' for column 'date_time' at row 1").
+2018-10-22 09:56:07 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-01-03 15:30\n:00' for column 'date_time' at row 1").
+2018-10-22 12:10:52 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-01-03 15:30\n:00' for column 'date_time' at row 1").
+2018-10-22 12:42:25 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-01-03 15:30\n:00' for column 'date_time' at row 1").
+2018-10-22 12:48:12 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-01-03 15:30\n:00' for column 'date_time' at row 1").
+2018-10-22 14:46:45 datagrid_transfers_sync: db query eror: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Riverside AND \t\tloc_to_pcssc_download_timestamp >= DATE(NOW()) - INTERVAL 7 DAY' at line 1")
+2018-10-22 14:55:56 datagrid_transfers_sync -> insert_datagrid_transfers: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'), ("\'Success\'",), ("\'Success\'",), ("\'No active schedule detected.\'",), ("\'NULL\'\' at line 1')
+2018-10-22 14:56:20 datagrid_transfers_sync -> insert_datagrid_transfers: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'), ("\'Success\'",), ("\'Success\'",), ("\'No active schedule detected.\'",), ("\'NULL\'\' at line 1')
+2018-10-22 15:11:26 datagrid_transfers_sync: db query eror: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Riverside' AND loc_to_pcssc_download_timestamp >= DATE(NOW()) - INTERVAL 7 DAY' at line 1")
+2018-10-22 16:42:27 datagrid_transfers_sync: db query eror: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Riverside' AND loc_to_pcssc_download_timestamp >= DATE(NOW()) - INTERVAL 7 DAY' at line 1")
+2018-10-22 16:43:06 datagrid_transfers_sync: db query eror: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Riverside' AND loc_to_pcssc_download_timestamp >= DATE(NOW()) - INTERVAL 7 DAY' at line 1")
+2018-10-22 17:21:39 datagrid_transfers_sync: db query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_download_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: pcssc_decryption_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_upload_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ontime_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-22 18:47:26 datagrid_transfers_sync: ps_process_status query eror: 'NoneType' object is unsubscriptable
+2018-10-24 08:20:25 MySQL: INSERT INTO transfer_alerts failed: (1054, "Unknown column 'time_stamp' in 'field list'")
+2018-10-24 08:24:31 MySQL: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: 'Success' for column 'project_endtime' at row 1")
+2018-10-24 10:55:59 MySQL: INSERT INTO transfer_alerts failed: (1364, "Field 'count' doesn't have a default value")
+2018-10-24 10:59:00 MySQL: INSERT INTO transfer_alerts failed: (1364, "Field 'count' doesn't have a default value")
+2018-10-24 11:17:15 insert_transfer_alerts: error fetching active count: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cemli_id = 'I101' AND location = 'UC Riverside' AND frequency = 'Ad Hoc' AND' at line 1")
+2018-10-29 07:19:09 MySQL: INSERT INTO transfer_alerts failed: (1292, "Incorrect datetime value: 'NULL' for column 'project_endtime' at row 1")
+2018-10-29 07:54:09 MySQL: INSERT INTO transfer_alerts failed: (1292, "Incorrect datetime value: 'NULL' for column 'project_endtime' at row 1"). goa_log_file = goalogp-ucpzI178c-1houx-00001.log
+2018-10-29 15:06:15 MySQL: INSERT INTO job_data failed: (1406, "Data too long for column 'error_buffer' at row 1")
+2018-10-30 13:15:22 process_ctm_input_buffer -> get_oscompstat_int: error parsing OSCOMPSTAT - invalid literal for int() with base 10: '-'. CTM Log: ctmlogp-20180906.1145-20180906.1149.log.
+2018-10-30 13:21:16 process_ctm_input_buffer -> get_oscompstat_int: error parsing OSCOMPSTAT - bad operand type for abs(): 'str'. CTM Log: ctmlogp-20180906.1145-20180906.1149.log.
+2018-10-30 13:28:45 process_ctm_input_buffer -> get_oscompstat_int: error parsing OSCOMPSTAT - bad operand type for abs(): 'str'. Full line <|0906|1145|fje01db |1t3ua|TR|5100|ENDED AT 20180906114500. OSCOMPSTAT 0. RUNCNT 16 |>. CTM Log: ctmlogp-20180906.1145-20180906.1149.log.
+2018-10-30 13:33:56 process_ctm_input_buffer -> get_oscompstat_int: error parsing OSCOMPSTAT - bad operand type for abs(): 'str'. Full line <|0906|1145|fje01db |1t3ua|TR|5100|ENDED AT 20180906114500. OSCOMPSTAT 0. RUNCNT 16 |>. CTM Log: ctmlogp-20180906.1145-20180906.1149.log.
+2018-10-30 13:40:00 process_ctm_input_buffer -> get_oscompstat_int: error parsing OSCOMPSTAT - invalid literal for int() with base 10: '-'. Full line <|0906|1148|UCSC_CHECK_AG |1t4jx|TR|5100|ENDED AT 20180906114805. OSCOMPSTAT -2. RUNCNT 1 |>. CTM Log: ctmlogp-20180906.1145-20180906.1149.log.
+2018-10-30 15:24:47 MySQL: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: 'NULL' for column 'loc_to_pcssc_download_timestamp' at row 1")
+2018-10-30 17:22:29 insert_transfer_data: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: 'NULL' for column 'loc_to_pcssc_download_timestamp' at row 1"). GoA file: goalogp-ucpMf_I176-ComCk-LACMP_zzz_prod-1tbva-00001.log
+2018-11-06 15:31:03 check_late_status - Error fetching number of records for cemli I, location 1: (1054, "Unknown column 'time_stamp' in 'where clause'")
+2018-11-15 15:31:14 check_late_status: Error fetching number of records for cemli I, location 1: (1054, "Unknown column 'time_stamp' in 'where clause'")
+2018-11-15 23:26:48 MySQL: INSERT INTO transfer_alerts failed: (1292, "Incorrect datetime value: '2018-11-15 23H:26M' for column 'project_endtime' at row 1").
+2018-11-15 23:26:48 check_late_status: Error fetching number of records for cemli I618, location ASUCLA: cursor closed
+2018-11-15 23:26:48 Error in close_db_connection: closing a closed connection
+2018-11-17 09:13:15 MySQL: Error in get_ctm_file_list: (2006, 'MySQL server has gone away')
+2018-11-18 18:55:51 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:01:52 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:03:45 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:06:10 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:22:38 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:25:04 logmon_sync -> get_general_alerts: error getting alert list: global name 'general_alerts_list' is not defined
+2018-11-18 19:28:22 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-18 19:33:15 logmon_sync -> get_scheduled_alerts: error getting alert list: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Late%' at line 1")
+2018-11-19 15:31:42 MySQL: INSERT INTO transfer_alerts failed: (1292, "Incorrect datetime value: '2018-11-19 15H:31M' for column 'project_endtime' at row 1").
+2018-11-19 15:31:42 check_late_status: Error fetching number of records for cemli I618, location UCLA: cursor closed
+2018-11-19 15:31:42 Error in close_db_connection: closing a closed connection
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:38:14 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:39:39 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:41:04 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:42:29 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:43:53 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:19 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:45:20 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:43 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:46:44 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:48:07 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:49:32 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:50:57 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:52:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 15:53:46 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:44 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:30:45 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ontime_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-19 16:33:37 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object is unsubscriptable
+2018-11-20 08:56:34 insert_transfer_alerts: error updating alarm counter: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '08:52:45 WHERE cemli_id = 'I176' AND location = 'UCLA' AND frequency = 'Ad Hoc' ' at line 1")
+2018-11-20 10:16:01 insert_transfer_alerts: error updating alarm counter: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '08:52:45 WHERE cemli_id = 'I176' AND location = 'UCLA' AND frequency = 'Ad Hoc' ' at line 1")
+2018-11-29 22:22:30 calendar_sync -> insert_calendar: (1292, "Incorrect datetime value: '2018-07-31 13:60:00' for column 'date_end' at row 1").
+2018-11-29 22:25:54 calendar_sync -> error fetching transfer records: argument 1 must be string or read-only character buffer, not tuple
+2018-11-29 22:39:16 calendar_sync -> error fetching transfer records: argument 1 must be string or read-only character buffer, not tuple
+2018-11-29 22:41:53 calendar_sync -> error fetching transfer records: argument 1 must be string or read-only character buffer, not tuple
+2018-11-29 22:53:09 calendar_sync -> error fetching transfer records: argument 1 must be string or read-only character buffer, not tuple
+2019-01-28 22:08:10 get_ontime_status -> check_count -> Error fetching event count: global name 'db_cursor' is not defined
+2019-01-29 07:52:37 get_ontime_status -> check_count -> Error fetching event count: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '07:01:25 - INTERVAL 2 DAY' at line 1")
+2019-02-15 12:03:40 insert_transfer_data: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: '' for column 'ps_process_timestamp' at row 1"). GoA file: goalogp-ucpMt_I156-SBCMP_zzz_prod-2139k-00001.log
+2019-02-19 21:14:07 insert_transfer_data: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: '' for column 'ps_process_timestamp' at row 1"). GoA file: goalogp-ucpMt_I156-SBCMP_zzz_prod-2139k-00001.log
+2019-02-19 21:54:02 insert_transfer_data: INSERT INTO transfer_data failed: (1292, "Incorrect datetime value: '' for column 'ps_process_timestamp' at row 1"). GoA file: goalogp-ucpMt_I156-SBCMP_zzz_prod-2139k-00001.log
+2019-03-19 13:59:15 deactivate_alerts: global name 'db_cursor' is not defined2019-03-19 14:02:35 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-19 14:02:35 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:21 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_download_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: pcssc_decryption_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_upload_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ontime_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync: ps_process_status query error: 'NoneType' object has no attribute '__getitem__'
+2019-03-20 10:56:22 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Adhoc' for column 'expected_count' at row 1")2019-03-20 11:24:04 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Adhoc' for column 'expected_count' at row 1")2019-03-20 12:45:13 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Adhoc' for column 'expected_count' at row 1")2019-03-20 14:24:20 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Not set' for column 'expected_count' at row 1")2019-03-20 20:52:56 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Not set' for column 'expected_count' at row 1")2019-03-20 21:01:30 insert_transfer_alerts: error updating existing alarm counter: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'set, actual_count = 92, project_endtime = '2019-03-20 12:21:24' WHERE cemli_id =' at line 1")
+2019-03-20 21:05:15 insert_transfer_alerts: error updating existing alarm counter: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'set, actual_count = 92, project_endtime = '2019-03-20 12:21:24' WHERE cemli_id =' at line 1")
+2019-03-20 21:12:02 datagrid_transfers_sync -> insert_datagrid_transfers: (1366, "Incorrect integer value: 'Not set' for column 'expected_count' at row 1")2019-03-21 09:16:43 insert_transfer_alerts -> db_write: INSERT INTO transfer_alerts failed - (1364, "Field 'count' doesn't have a default value").
+2019-04-08 21:31:03 Error in open_db_connection: (2002, "Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)")
